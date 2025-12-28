@@ -4,26 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AndaBIM - Plug-in para Andaime Multidirecional</title>
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="style.css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-  <header>
-    <div><strong>AndaBIM</strong></div>
-    <nav>
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-container">
+    <div class="logo">
+      <img src="Logo_Redimensionado.png" alt="Logo AndaBIM">
+    </div>
+    <nav class="main-nav">
       <a href="#inicio">Início</a>
       <a href="#funcionalidades">Funcionalidades</a>
       <a href="#beneficios">Benefícios</a>
-      <a href="#demo">Demonstração</a>
-      <a href="#contato">Contato</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#cta-final">Contato</a>
     </nav>
-    <a href="#contato" class="cta-btn">Solicitar Demonstração</a>
-  </header>
-
+  </div>
+</header>
+<!-- HEADER -->
 
   <section class="hero">
     <h1>Plug-in AndaBIM para Andaime Multidirecional</h1>
@@ -38,54 +43,336 @@
       <div class="card">✅ Inserção automática de escadas de acesso e consoles</div>
       <div class="card">✅ Geração automática de cotas</div>
       <div class="card">✅ Exportação de lista de materiais para ERP</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <h1>Automatize seus projetos de estruturas temporárias no Revit</h1>
+    <p>Plug-ins inteligentes para modelagem paramétrica de andaimes, escoramentos e fôrmas metálicas.</p>
+    <a href="#funcionalidades" class="cta-btn">Ver Demonstração</a>
+  </div>
+</section>
+<!-- HERO -->
+
+
+<!-- SOBRE -->
+<section id="inicio" class="section-gray">
+  <div class="sobre">
+    <div class="sobre-texto">
+      <h2 style="color: cornflowerblue;">Engenharia e tecnologia integradas em um único ecossistema BIM</h2>
+
+      <p>A <strong>AndaBIM</strong> combina conhecimento técnico de engenharia com automação digital para transformar o processo de modelagem de estruturas temporárias. Desenvolvemos <strong>plug-ins</strong> e ferramentas que reduzem o tempo de projeto, padronizam montagens e garantem resultados precisos diretamente dentro do Autodesk Revit.</p>
     </div>
-  </section>
 
+    <div class="sobre-cards">
+      <div class="card-item">
+        <h3>Automação Inteligente</h3>
+        <p>Modelagem completa em poucos cliques</p>
+      </div>
 
-  <section id="beneficios"><br>
-    <center><h2>Por que escolher o AndaBIM?</h2></center>
-    <div class="benefits">
-      <div class="benefit">⏱️ <br>Agilidade nos projetos</div>
-      <div class="benefit">🎯 <br>Precisão nos detalhes</div>
-      <div class="benefit">📉 <br>Economia de tempo e custo</div>
-      <div class="benefit">🖼️ <br>Visualização 3D instantânea</div>
+      <div class="card-item">
+        <h3>Precisão e Padronização</h3>
+        <p>Quantitativos e pranchas automáticas</p>
+      </div>
+
+      <div class="card-item">
+        <h3>Integração BIM Completa</h3>
+        <p>Total compatibilidade com Revit e IFC</p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
+<!-- SOBRE -->
 
+<!-- FUNCIONALIDADES -->
+<section id="funcionalidades">
+<h1 class="f-titulo" style="color: cornflowerblue;">
+  Soluções BIM para Estruturas Temporárias
+</h1>
 
-  <section id="inicio" style="text-align: center; padding: 40px 20px;">
-    <h2>O que é o AndaBIM?</h2>
-      <article>
-        <p style="max-width: 800px; margin: auto; font-size: 1.2em; line-height: 1.6;">
-          O <strong>AndaBIM</strong> é um plug-in desenvolvido para o Revit que automatiza o projeto de 
-          <strong>andaimes multidirecionais</strong>.  
-          Com famílias parametrizadas e ferramentas inteligentes, você gera plantas, cortes e modelos 3D em poucos cliques, 
-          com mais precisão, agilidade e integração direta ao seu ERP.
-        </p>
-      </article>
-  </section>
+<div class="cards">
 
-  
-  <section id="demo">
-    <center><h2>Veja como funciona</h2></center><br>
-  
-    <div style="text-align:center;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+  <div class="card" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/V7Lrd2-4HR0">
+    <img src="TUBO E BRAÇADEIRA.png" alt="" class="card-icon">
+    <div class="card-text">
+      <h3>AndaBIM Andaime Tubo Equipado</h3>
+      <p>Sistema completo de modelagem para andaimes tubulares equipados com componentes e acessórios padronizados.</p>
     </div>
-  </section>
+  </div>
+
+  <div class="card" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/vg7ItVz450c">
+    <img src="MULTIDIRECIONAL.png" alt="" class="card-icon">
+    <div class="card-text">
+      <h3>AndaBIM Circular</h3>
+      <p>Algoritmo inteligente que calcula e gera andaimes circulares otimizados.</p>
+    </div>
+  </div>
+
+  <div class="card" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/pmce-Ouj3Rk">
+    <img src="ESCORAMENTO.png" alt="" class="card-icon">
+    <div class="card-text">
+      <h3>AndaBIM Escoramento</h3>
+      <p>Lançamento automatizado de pórticos metálicos, regulagens e vigas de apoio.</p>
+    </div>
+  </div>
+
+  <div class="card" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/59cdDApS7Z4">
+    <img src="FACHADARIO.png" alt="" class="card-icon">
+    <div class="card-text">
+      <h3>AndaBIM Fachadeiro</h3>
+      <p>Materiais integrados ao seu sistema Montagem automática de andaimes de fachada com níveis e modulação precisa.</p>
+    </div>  
+  </div>
+
+  <div class="card" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/cNosJYrP8lE">
+    <img src="FORMA METALICA.png" alt="" class="card-icon">
+    <div class="card-text">
+      <h3>AndaBIM Fôrma Metálica</h3>
+      <p>Sistema automatizado para modelagem de fôrmas metálicas com configurações paramétricas e quantitativos precisos.</p>
+    </div>
+  </div>
+
+  <div class="card" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/PY-rMQ63V48">
+    <img src="MULTIDIRECIONAL.png" alt="" class="card-icon">
+    <div class="card-text">
+      <h3>AndaBIM Multidirecional</h3>
+      <p>Modelagem automática de andaimes multidirecionais com vistas, etiquetas e quantitativos.</p>
+    </div>
+  </div>
+
+  <div class="card" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/SEU_VIDEO_AQUI">
+    <img src="REESCORAMENTO.png" alt="" class="card-icon">
+    <div class="card-text">
+      <h3>AndaBIM Reescoramento</h3>
+      <p>Cálculo e modelagem inteligente de sistemas de reescoramento com verificação de cargas e segurança.</p>
+    </div>
+  </div>
+
+  <div class="card" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/SEU_VIDEO_AQUI">
+    <img src="TRAVAMENTO DE PILARES.png" alt="" class="card-icon">
+    <div class="card-text">
+      <h3>AndaBIM Travamento Metálico</h3>
+      <p>Geração automática de sistemas de travamento metálico com análise estrutural e dimensionamento otimizado.</p>
+    </div>
+  </div>
+</div>
+</section>
+<!-- FUNCIONALIDADES -->
 
 
-  <section class="cta-section">
-    <h2>Leve seu projeto de andaimes a outro nível com o AndaBIM</h2>
-    <a href="#contato" class="cta-btn">Solicitar Demonstração</a>
-  </section>
+<!-- CHECKLIST -->
+<section id="beneficios" class="resultado-section">
+  <h2>Tecnologia que entrega resultados reais</h2>
 
-  <footer id="contato">
-    <p><strong>AndaBIM</strong> - Inteligência BIM para Estruturas Temporárias</p>
-    <p>📩 matheus.cima@outlook.com | 📞 (47) 98809-8192 | WhatsApp</p>
-    <p>© 2025 AndaBIM - Todos os direitos reservados</p>
-  </footer>
+  <div class="resultado-grid">
+
+    <div class="resultado-item">
+      <span class="check-icon">✓</span>
+      <p>Compatível com Autodesk Revit 2023–2026</p>
+    </div>
+
+    <div class="resultado-item">
+      <span class="check-icon">✓</span>
+      <p>Biblioteca JSON de famílias e componentes paramétricos</p>
+    </div>
+
+    <div class="resultado-item">
+      <span class="check-icon">✓</span>
+      <p>Geração automática de vistas, pranchas e etiquetas</p>
+    </div>
+
+    <div class="resultado-item">
+      <span class="check-icon">✓</span>
+      <p>Exportação IFC com nomenclatura padronizada</p>
+    </div>
+
+    <div class="resultado-item">
+      <span class="check-icon">✓</span>
+      <p>Quantitativos instantâneos e relatórios detalhados</p>
+    </div>
+
+    <div class="resultado-item">
+      <span class="check-icon">✓</span>
+      <p>Plug-ins leves e modulares, com atualização contínua</p>
+    </div>
+
+  </div>
+</section>
+<!-- CHECKLIST -->
+
+<!-- GALERIA -->
+<section id="galeria" class="galeria-section">
+  <h2 class="galeria-titulo">Projetos Realizados</h2>
+  <p class="galeria-subtitulo">Veja alguns exemplos de projetos desenvolvidos com nossas soluções BIM</p>
   
+  <div class="galeria-container">
+    <div class="galeria-thumbnails">
+      <img src="Image1.png" alt="Projeto 1" class="galeria-img" onclick="expandImage(this)">
+      <img src="Image1_001.png" alt="Projeto 2" class="galeria-img" onclick="expandImage(this)">
+      <img src="Image2.png" alt="Projeto 3" class="galeria-img" onclick="expandImage(this)">
+      <img src="Image2_000.png" alt="Projeto 4" class="galeria-img" onclick="expandImage(this)">
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <h2>Implemente o AndaBIM na sua empresa</h2>
+  <p>Agende uma demonstração e descubra como automatizar seus projetos com precisão e eficiência.</p>
+
+  <a href="https://wa.me/5547988098192" target="_blank" class="cta-final-btn">
+     Solicitar Demonstração
+  </a>
+</section>
+<!-- CTA FINAL -->
+
+
+<!-- LOGOS -->
+<section class="logos section-white">
+  <div class="logos-card">
+    <h2 class="logos-title">Nossos Clientes</h2>
+    <p class="logos-subtitle">Empresas que confiam em nossas soluções BIM</p>
+
+    <div class="logos-container">
+      <img src="icon_argento.jpeg" alt="Parceiro 1">
+      <img src="icon_makfil.jpeg" alt="Parceiro 2">
+    </div>
+  </div>
+</section>
+<!-- LOGOS -->
+
+
+<!-- EQUIPE TÉCNICA -->
+<section id="equipe" class="equipe-section">
+  <h2 class="equipe-titulo">Equipe Técnica</h2>
+
+  <div class="equipe-cards-container">
+
+    <!-- CARD MATHEUS -->
+    <div class="equipe-card">
+      <img src="icone_matheus.png" alt="Matheus Cima">
+      <h3>Matheus Cima Cardoso</h3>
+      <p class="cargo">Engenheiro Civil | Desenvolvedor BIM</p>
+      <p class="descricao">
+      Responsável pelo desenvolvimento dos plug-ins AndaBIM e pela integração de soluções automatizadas no Revit.
+    </p>
+    </div>
+    
+
+    <!-- CARD GUI -->
+    <div class="equipe-card">
+      <img src="icone_guilherme.png" alt="Guilherme Bittencourt">
+      <h3>Guilherme Bittencourt</h3>
+      <p class="cargo">Desenvolvedor Web | Suporte ao Produto</p>
+      <p class="descricao">
+      Responsável pelo desenvolvimento do site AndaBIM, e assistência tecnica.
+    </p>
+    </div>
+    
+
+  </div>
+</section>
+
+
+<!-- RODAPÉ -->
+<footer class="rodape">
+  <div class="rodape-container">
+
+    <!-- LOGO -->
+    <div class="rodape-col">
+      <img src="LIB.png" alt="AndaBIM Logo" class="rodape-logo">
+    </div>
+
+    <!-- LINKS -->
+    <div class="rodape-col">
+      <h4>Links</h4>
+      <a href="#inicio">Início</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#demonstracao">Demonstração</a>
+      <a href="#contato">Contato</a>
+    </div>
+
+    <!-- CONTATO -->
+    <div class="rodape-col">
+      <h4>Contato</h4>
+      <p>Email: matheus@andabim.com</p>
+      <p>WhatsApp: (47) 98809-8192</p>
+    </div>
+
+  </div>
+
+  <p class="rodape-copy">© 2025 AndaBIM — Soluções BIM para Estruturas Temporárias</p>
+</footer>
+
+
+
+
+<!-- MODAL DO VÍDEO -->
+<div class="modal fade" id="videoModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Demonstração do Produto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <iframe id="modalVideo" src="" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<script>
+  const videoModal = document.getElementById('videoModal');
+  const videoFrame = document.getElementById('modalVideo');
+
+  videoModal.addEventListener('show.bs.modal', function (event) {
+    const trigger = event.relatedTarget;
+    const videoUrl = trigger.getAttribute('data-video');
+    videoFrame.src = videoUrl;
+  });
+
+  videoModal.addEventListener('hidden.bs.modal', function () {
+    videoFrame.src = "";
+  });
+
+  // Função para expandir imagens da galeria
+  function expandImage(img) {
+    const container = document.querySelector('.galeria-container');
+    const thumbnails = document.querySelector('.galeria-thumbnails');
+    const allImages = document.querySelectorAll('.galeria-img');
+    
+    // Remove expanded class de todas as imagens
+    allImages.forEach(image => {
+      image.classList.remove('expanded');
+    });
+    
+    // Adiciona expanded class na imagem clicada
+    img.classList.add('expanded');
+    
+    // Adiciona classe has-expanded ao container
+    container.classList.add('has-expanded');
+    
+    // Move a imagem expandida para o topo do container
+    container.insertBefore(img, thumbnails);
+    
+    // Scroll suave para a imagem expandida
+    img.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+  
+  // Torna a função global
+  window.expandImage = expandImage;
+</script>
+
 
 </body>
 </html>
